@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="script/script.js">
+
+  <title>Main</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="files/logo.png" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container my-5">
+      <h2 class="text-center mb-4">My Projects</h2>
+
+      <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="files/java.jpg" class="d-block w-100" alt="Java Calculator">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Java Calculator (Swing)</h5>
+              <p>A simple GUI calculator implemented in Java using the Swing library that allows you to perform basic
+                arithmetic operations and has its own control interface.</p>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="files/с++.jpg" class="d-block w-100" alt="C++ Book Manager">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Book Database (C++)</h5>
+              <p>
+              <p>Console application for storing and searching books and movies, written in C++. Implemented
+                input/output, sorting, filtering and average score calculation.</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="files/sql.jpg" class="d-block w-100" alt="SQL Database">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>E-commerce SQL DB</h5>
+              <p>Online store database with tables for orders, customers, products, payments and guarantees.
+                Relationships, views, triggers and data integrity constraints are implemented.</p>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <img src="files/1_site.jpg" class="d-block w-100" alt="1 site">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Tech Store Website</h5>
+              <p>Built with HTML, CSS, Bootstrap — hosted via GitHub Pages.</p>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="carousel-item">
+            <img src="files/2_site.jpg" class="d-block w-100" alt="2 site">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Wikipedia</h5>
+              <p>In this project, I studied the structure of the Wikipedia website and attempted to replicate it</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <!-- Indicators -->
+        <div class="carousel-indicators mt-3">
+          <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"
+            aria-current="true"></button>
+          <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="4"></button>
+        </div>
+      </div>
+
+
+  <div class="card text-center shadow-sm border-0" style="background-color: #f8f9fa;">
+    <div class="card-body py-4 px-3">
+      <h4 class="card-title mb-3">About This Portfolio</h4>
+      <p class="card-text mb-4">
+        This portfolio presents my academic and independent work in development, databases, and simulations. 
+        It reflects my technical progress, learning journey, and growing passion for web technologies.
+        I'm open to internships and collaborative opportunities.
+      </p>
+      <a href="https://drive.google.com/drive/folders/1R7vDILy3B3rmRTA-O7Y5rSfyWM9J2kXF?usp=sharing"
+         target="_blank" class="btn btn-primary px-4">📄 View My CV</a>
+    </div>
+  </div>
+
+
+
+</section>
+
+  </main>
+
+  <footer class="footer mt-4 p-3 bg-dark text-white text-start">
+    &copy; 2025 Oleksii Burianov. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
